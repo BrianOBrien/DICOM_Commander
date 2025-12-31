@@ -1,6 +1,7 @@
 # DICOM Sync
 
-A cross-platform DICOM synchronization and query tool built using **Avalonia UI** and **.NET**.
+A cross-platform DICOM synchronization and query tool built using Xojo and dcmtk
+
 
 ### Features
 - Dual PACS comparison (Left PACS vs. Right PACS)
@@ -27,10 +28,4 @@ This is an early UI skeleton — functionality will be implemented next.
 ---
 
 ## Building
-
-```bash
-dotnet build
-
-## Running
-dotnet run
 
