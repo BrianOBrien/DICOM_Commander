@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DicomSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6c602b829932dfcfe7b5f1c93ef72fb67f3fb7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5e7b80b1e528ca3d49f0bf511a16103a7fe5d10")]
 [assembly: System.Reflection.AssemblyProductAttribute("DicomSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DicomSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

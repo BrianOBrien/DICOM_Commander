@@ -240,44 +240,67 @@
               VerticalAlignment="Stretch">
 
         <StackPanel Orientation="Vertical"
-                    Margin="8"
-                    VerticalAlignment="Top">
+            Margin="8"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Spacing="12">
 
-          <TextBlock Text="Actions"
-                     FontWeight="Bold"
-                     Margin="0,0,0,8"
-                     HorizontalAlignment="Center"/>
+  <!-- Query Left -->
+  <Button Width="170" Height="70" Click="OnQueryLeftClick">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="4">
+      <Image Source="avares://DicomSync/Resources/arrow_left.png"
+             Width="24" Height="24" />
+      <TextBlock Text="Query Left" HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Button>
 
-          <Button Content="Query Left"
-                  Width="170"
-                  Margin="0,0,0,4"
-                  Click="OnQueryLeftClick" />
+  <!-- Query Right -->
+  <Button Width="170" Height="70" Click="OnQueryRightClick">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="4">
+      <Image Source="avares://DicomSync/Resources/arrow_right.png"
+             Width="24" Height="24" />
+      <TextBlock Text="Query Right" HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Button>
 
-          <Button Content="Query Right"
-                  Width="170"
-                  Margin="0,0,0,4"
-                  Click="OnQueryRightClick" />
+  <!-- Move Left → Right -->
+  <Button Width="170" Height="70" Click="OnMoveLeftToRightClick">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="4">
+      <Image Source="avares://DicomSync/Resources/arrow_right.png"
+             Width="24" Height="24" />
+      <TextBlock Text="Move → Right" HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Button>
 
-          <Button Content="Move Left → Right"
-                  Width="170"
-                  Margin="0,0,0,4"
-                  Click="OnMoveLeftToRightClick" />
+  <!-- Move Left ← Right -->
+  <Button Width="170" Height="70" Click="OnMoveRightToLeftClick">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="4">
+      <Image Source="avares://DicomSync/Resources/arrow_left.png"
+             Width="24" Height="24" />
+      <TextBlock Text="Move ← Left" HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Button>
 
-          <Button Content="Move Right → Left"
-                  Width="170"
-                  Margin="0,0,0,4"
-                  Click="OnMoveRightToLeftClick" />
+  <!-- Sync -->
+  <Button Width="170" Height="70" Click="OnSyncClick">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="4">
+      <Image Source="avares://DicomSync/Resources/arrow_refresh.png"
+             Width="24" Height="24" />
+      <TextBlock Text="Sync" HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Button>
 
-          <Button Content="Sync"
-                  Width="170"
-                  Margin="0,0,0,4"
-                  Click="OnSyncClick" />
+  <!-- Pause -->
+  <Button Width="170" Height="70" Click="OnPauseClick">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="4">
+      <Image Source="avares://DicomSync/Resources/hand_point.png"
+             Width="24" Height="24" />
+      <TextBlock Text="Pause" HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Button>
 
-          <Button Content="Pause"
-                  Width="170"
-                  Click="OnPauseClick" />
+</StackPanel>
 
-        </StackPanel>
       </Border>
 
 
